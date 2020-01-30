@@ -1,0 +1,27 @@
+/* Style Guide
+  *Primary Color: Black
+  *Secondary Color: Cyan
+*/
+
+
+
+h1 {
+  color: cyan;
+  font-family: Impact, "roboto",sans-serif;
+  font-size: 48px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+p {
+    color: cyan;
+}
+
+/* Typography
+  *Primary Font: font-family: Impact, "roboto",sans-serif;
+*/
+
+img {
+  width: 100%;
+  
+}
