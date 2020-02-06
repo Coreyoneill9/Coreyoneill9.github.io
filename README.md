@@ -1,6 +1,8 @@
 # Coreyoneill9.github.io
 coreproductions.tech
 
+##Bio
+
 ## Style Tile
 ### Colors
 *Royal Blue
