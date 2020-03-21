@@ -3,68 +3,47 @@
   *Secondary Color: Cyan
 */
 
-main { 
-  margin: 0 auto;
-  width: 90%;
-    
-  display: grid;
-  grid-template-columns: 1fr;
+body {
+  background: black;
 }
 
-main img {
-
-  grid-column: 1 / 1;
+h1 {
+  color: cyan;
+  position: relative;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
+nav {
+  background: lightgray;
+  display: flex;
+  justify-content: space-around;
+}
 
-/* Mobile 
-  0 to 26em (416 pixels)
-*/
-@media only screen and (min-width: 0) { 
-    
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Mobile Size";
-  }
+a {
+  color: black;
+  font-family: 'Julius Sans One', sans-serif;
+  
+  margin: 0;
+  border: 0;
+  padding: .5em;
+  display: flex;
+  align-content: center;
   
 }
 
-/* Tablet 
-  26em (416 pixels) to 72em (1,152 pixels)
-*/
-@media only screen and (min-width: 26em)  {
-    
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Tablet Size";
-  }
-
+a:hover {
+  padding: 1em;
 }
 
-/* Desktop 
-   72em (1,152 pixels) to 90em (1440 pixels)
-*/
-@media screen and (min-width: 72em)  { 
-  
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Desktop Size";
-  }
-
+p {
+  background: lightgray;
+  padding: 2em;
+  position: relative;
+  left: 100px;
+  width: 500px;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
-/* Wide Desktop: 
-  Greater than 90em (1440px)
-*/
-@media screen and (min-width: 90em) { 
-  
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Wide Desktop Size";
-  }
-
+img {
+  width: 600px;
 }
